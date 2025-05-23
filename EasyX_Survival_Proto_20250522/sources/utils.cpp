@@ -1,4 +1,4 @@
-#include "utils.hpp"
+#include "../includes/utils.hpp"
 
 #pragma comment(lib, "MSIMG32.LIB")
 void putimage_alpha(int x, int y, IMAGE* img)

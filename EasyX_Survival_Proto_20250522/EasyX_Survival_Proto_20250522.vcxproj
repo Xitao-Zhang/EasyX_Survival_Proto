@@ -19,24 +19,24 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Atlas.cpp" />
-    <ClCompile Include="Button.cpp" />
-    <ClCompile Include="Enemy.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="QuitButton.hpp" />
-    <ClCompile Include="utils.cpp" />
+    <ClInclude Include="includes\Animation.hpp" />
+    <ClInclude Include="includes\Atlas.hpp" />
+    <ClInclude Include="includes\Bullet.hpp" />
+    <ClInclude Include="includes\Button.hpp" />
+    <ClInclude Include="includes\Enemy.hpp" />
+    <ClInclude Include="includes\Enums.hpp" />
+    <ClInclude Include="includes\Player.hpp" />
+    <ClInclude Include="includes\QuitButton.hpp" />
+    <ClInclude Include="includes\StartButton.hpp" />
+    <ClInclude Include="includes\utils.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.hpp" />
-    <ClInclude Include="Atlas.hpp" />
-    <ClInclude Include="Bullet.hpp" />
-    <ClInclude Include="Button.hpp" />
-    <ClInclude Include="Enemy.hpp" />
-    <ClInclude Include="Enums.hpp" />
-    <ClInclude Include="Player.hpp" />
-    <ClInclude Include="StartButton.hpp" />
-    <ClInclude Include="utils.hpp" />
+    <ClCompile Include="sources\Atlas.cpp" />
+    <ClCompile Include="sources\Button.cpp" />
+    <ClCompile Include="sources\Enemy.cpp" />
+    <ClCompile Include="sources\main.cpp" />
+    <ClCompile Include="sources\Player.cpp" />
+    <ClCompile Include="sources\utils.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

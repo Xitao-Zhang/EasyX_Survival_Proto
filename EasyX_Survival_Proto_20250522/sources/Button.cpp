@@ -1,4 +1,4 @@
-#include "Button.hpp"
+#include "../includes/Button.hpp"
 
 Button::Button(RECT rect, LPCTSTR path_img_idle, LPCTSTR path_img_hovered, LPCTSTR path_img_pushed)
 {

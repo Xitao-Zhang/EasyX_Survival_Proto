@@ -1,10 +1,10 @@
 #include <graphics.h>
 #include <string>
-#include "utils.hpp"
-#include "Player.hpp"
-#include "Enemy.hpp"
-#include "StartButton.hpp"
-#include "QuitButton.hpp"
+#include "../includes/utils.hpp"
+#include "../includes/Player.hpp"
+#include "../includes/Enemy.hpp"
+#include "../includes/StartButton.hpp"
+#include "../includes/QuitButton.hpp"
 
 #pragma comment(lib, "Winmm.lib") 
 

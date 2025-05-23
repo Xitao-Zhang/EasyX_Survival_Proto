@@ -1,4 +1,4 @@
-#include "Atlas.hpp"
+#include "../includes/Atlas.hpp"
 
 Atlas::Atlas(LPCTSTR path, int num)
 {

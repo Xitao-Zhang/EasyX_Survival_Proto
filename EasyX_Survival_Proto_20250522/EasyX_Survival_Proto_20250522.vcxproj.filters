@@ -15,55 +15,55 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="utils.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Atlas.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Button.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="QuitButton.hpp">
+    <ClInclude Include="includes\Animation.hpp">
       <Filter>头文件</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="includes\Atlas.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Bullet.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Button.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Enemy.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Enums.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Player.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\QuitButton.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\StartButton.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Animation.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="utils.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Bullet.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Atlas.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Button.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="StartButton.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Enums.hpp">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <ClCompile Include="sources\Atlas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Button.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
